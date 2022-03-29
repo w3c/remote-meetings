@@ -678,6 +678,11 @@ respecConfig.localBiblio = {
         "date": "April 2021",
         "href": "https://www.w3.org/TR/coga-usable/#user_needs"
     },
+    "vpat": {
+	"title": "VPAT",
+	"publisher": "Information Technology Industry Council",
+	"href": "https://www.itic.org/policy/accessibility/vpat"
+    },
        
 };
 
