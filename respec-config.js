@@ -97,7 +97,7 @@ var respecConfig = {
 	// errata: 'https://www.w3.org/2010/02/rdfa/errata.html',
 	
 	group: "apa",
-	github: "w3c/apa",
+	github: "w3c/remote-meetings",
 	maxTocLevel: 4
 	
 };
