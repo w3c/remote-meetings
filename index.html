@@ -1,6 +1,6 @@
 <!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 32.1.8">
+<meta name="generator" content="ReSpec 32.1.10">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 .issue-label{text-transform:initial}
@@ -8,6 +8,7 @@
 .warning{padding:.5em;border-left-width:.5em;border-left-style:solid}
 span.warning{padding:.1em .5em .15em}
 .issue.closed span.issue-number{text-decoration:line-through}
+.issue.closed span.issue-number::after{content:" (Closed)";font-size:smaller}
 .warning{border-color:#f11;border-width:.2em;border-style:solid;background:#fbe9e9}
 .warning-title:before{content:"⚠";font-size:1.3em;float:left;padding-right:.3em;margin-top:-.3em}
 li.task-list-item{list-style:none}
@@ -165,15 +166,15 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "group": "apa",
   "github": "w3c/remote-meetings",
   "maxTocLevel": 4,
-  "publishISODate": "2022-06-01T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 01 June 2022"
+  "publishISODate": "2022-06-28T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 28 June 2022"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Accessibility of Remote Meetings</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2022-06-01">01 June 2022</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2022-06-28">28 June 2022</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -410,6 +411,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <li>Allow customized window views. For example, sign language participants could be pinned on screen and in particular places, or a consistent view across all participants could be established. This would allow, for example, to reference 'a 'person on the left' which is the same for all participants which provides a more consistent experience for people with cognitive disabilities.</li>
 <li>Allow the size of windows to be adjustable to assist participants with low vision.</li>
 <li>Allow the display of captions and subtitles to be customizable. This would include allowing the text to be enlarged, colors changed, a high contrast mode and moving the on-screen location based on user preferences .</li>
+<li>Ensure that, if human-authored captions are not provided, any meeting participant can at any time enable the generation of captions by automatic speech recognition, without requiring this capability to be enabled or authorized by the meeting's organizers. In some cases, caption generation may be a function of the individual participant's user agent or operating system, rather than the meeting platform.</li>
 <li>Ensure that status messages of video-conference controls, including user notification upon activation of camera-on status, is provided to assistive technologies so that someone who cannot see a visual activation sensor is not broadcasting video unawares.</li>
 <li>Provide a prioritization mechanism for low bandwidth scenarios, e.g. sign language participants can prioritize video over audio.</li>
 <li>Provide support for links to receive focus upon request. This could be implemented as a separate Links box or from within the chat window.</li>
