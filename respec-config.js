@@ -10,7 +10,7 @@ var respecConfig = {
 	tocIntroductory: true,
 	// specification status (e.g., WD, LC, NOTE, etc.). If in doubt use ED.
 	// subtitle: "Alternatives to Visual Turing Tests on the Web",
-	specStatus:           "ED",
+	specStatus:           "NOTE",
 	//crEnd:                "",
 	//perEnd:               "",
 	diffTool:             "http://www.aptest.com/standards/htmldiff/htmldiff.pl",
@@ -40,39 +40,48 @@ var respecConfig = {
 	// editors, add as many as you like
 	// only "name" is required
 	editors: [
-	    {
-		name: "Scott Hollier",
-		mailto: "scott.hollier@accessibility.org.au",
-	    },
-	    {
-		name: "Judy Brewer",
-		url: "https://www.w3.org/People/Brewer/",
-		company: "W3C",
-		companyURI: "https://www.w3.org",
-	    },
-	    	    {
-		name: "Jason White",
-		mailto: "jjwhite@ets.org",
-		company: "Educational Testing Service",
-		companyURI: "http://www.ets.org/",
-		w3cid: 74028
-	    },
-	    {
-		name: "Janina Sajka",
-		url: "http://rednote.net/",
-		w3cid: 33688
-	    },
-	    {
-		name: "Joshue O'Connor",
-		mailto: "josh@interaccess.ie",
-		w3cid: 41218
-	    },
-	    {
-		name: "Stephen Noble",
-		mailto: "steve.noble@pearson.com",
-		company: "Pearson",
-		companyURI: "https://www.pearson.com"
-	    },
+		{
+		  "name": "Scott Hollier",
+		  "mailto": "scott.hollier@accessibility.org.au",
+		  "company": "Invited Expert",
+		  "url": "mailto:scott.hollier@accessibility.org.au",
+		  "w3cid": "43274"
+		},
+		{
+		  "name": "Judy Brewer",
+		  "url": "https://www.w3.org/People/Brewer/",
+		  "company": "W3C",
+		  "companyURI": "https://www.w3.org",
+		  "w3cid": "2729"
+		},
+		{
+		  "name": "Jason White",
+		  "mailto": "jjwhite@ets.org",
+		  "company": "Educational Testing Service",
+		  "companyURI": "http://www.ets.org/",
+		  "w3cid": 74028,
+		  "url": "mailto:jjwhite@ets.org"
+		},
+		{
+		  "name": "Janina Sajka",
+		  "url": "http://rednote.net/",
+		  "company": "Invited Expert",
+		  "w3cid": 33688
+		},
+		{
+		  "name": "Joshue O'Connor",
+		  "mailto": "josh@interaccess.ie",
+		  "company": "Invited Expert",
+		  "w3cid": 41218,
+		  "url": "mailto:josh@interaccess.ie"
+		},
+		{
+		  "name": "Stephen Noble",
+		  "mailto": "steve.noble@pearson.com",
+		  "company": "Pearson",
+		  "companyURI": "https://www.pearson.com",
+		  "url": "mailto:steve.noble@pearson.com"
+		}
 	],
 	
 	// authors, add as many as you like.
