@@ -665,7 +665,7 @@ respecConfig.localBiblio = {
 		"href": "https://www.w3.org/WAI/media/av/"
 	},
 	"accessible-presentations": {
-		"title": "How to Make Your Presentations Accessible to All",
+		"title": "How to Make Your Presentations and Meetings Accessible to All",
 		"publisher": "W3C Web accessibility Initiative (WAI)",
 		"editors": ["Shawn Lawton Henry"],
 		"date": "February 2021",
