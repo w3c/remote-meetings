@@ -80,7 +80,8 @@ var respecConfig = {
 		  "mailto": "steve.noble@pearson.com",
 		  "company": "Pearson",
 		  "companyURI": "https://www.pearson.com",
-		  "url": "mailto:steve.noble@pearson.com"
+		  "url": "mailto:steve.noble@pearson.com",
+		  "w3cid": 112867
 		}
 	],
 	
